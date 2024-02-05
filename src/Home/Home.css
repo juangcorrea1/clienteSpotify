@@ -1,0 +1,42 @@
+.banner{
+    padding: 25%;
+    z-index: 1;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.geramx{
+    background-image: url('../assets/bannergmx.jpg');
+}
+
+.milo{
+    background-image: url('../assets/banner3.avif');
+}
+
+.duki{
+    background-image: url('../assets/duki.jpg');
+}
+
+.eladio{
+    background-image: url('../assets/eladio.jpg');
+}
+
+.trueno{
+    background-image: url('../assets/trueno.jpg');
+}
+
+.banner ::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+    opacity: 0.5;
+}
+
+.fuente{
+font-size: 60px;
+}
